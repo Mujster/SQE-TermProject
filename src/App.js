@@ -13,7 +13,7 @@ function App() {
     setSpinner(true);
 
     try {
-      const response = await fetch('http://localhost:3001/generate-tests', {
+      const response = await fetch('https://sqe-term-project-backend.vercel.app/generate-tests', {
         method: 'POST',
         headers: {
           'Content-Type': 'text/plain',
