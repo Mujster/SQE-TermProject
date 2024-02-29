@@ -1,70 +1,26 @@
-# Getting Started with Create React App
+# SQE-TermProject
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The tool has the following features and modules:
 
-## Available Scripts
+## Automated Test case or suit generator for given SUT
 
-In the project directory, you can run:
+This module shall be UI-based, accept the source code of the system under test (SUT) in a specific language (C/C++ or JS), and generate test cases or test suites to achieve 100% code (or maximum possible) coverage of the SUT by generating test cases using random values. This will ideally be fully automated. 
 
-### `npm start`
+The test cases can be generated to maximize coverage for the given coverage criteria:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1) Statement Coverage; 2) Branch (Decision Coverage); 3) Condition Coverage; 4) Functional Coverage; and 5) Multiple Condition/Decision Coverage., you are allowed to add more.
+ 
+The test data in the test suites can be generated using any intelligent scheme or intelligent algorithm, so that the generated data can be used to maximize the coverage of a given criteria. For the generation of test cases or suites, every group must use G-Test, JEST, or a similar UNIT framework. 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+For automated execution of a generated test case or suit, you may create a static template that can help in the automated execution of your generated test case.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Automated Coverage Report Generation for Test Cases or Test Suites
 
-### `npm run build`
+This module shall be UI-based; it uses the generated test suits or test cases from Module 1, executes those on SUT, and generates the coverage report. The report should ideally be exportable as a pdf and show the coverage achieved by the selected test cases or suits. The UI must be intuitive, and the end user can easily observe what part of the SUT is not yet covered by the given test suites or test cases. And the same information can be exported to PDF as well for inspection purposes.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The tool support only two languages 1) C/C++ or 2) JS (Typescript)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Regarding the features and guidance on how such a tool can be developed and used, Read the following article https://www.browserstack.com/guide/code-coverage-tools.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Project To be Made Available By 28th Feb,2024
