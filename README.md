@@ -4,7 +4,7 @@ The tool has the following features and modules:
 
 ## Automated Test case or suit generator for given SUT
 
-This module shall be UI-based, accept the source code of the system under test (SUT) in a specific language (C/C++ or JS), and generate test cases or test suites to achieve 100% code (or maximum possible) coverage of the SUT by generating test cases using random values. This will ideally be fully automated. 
+This module shall be UI-based, accept the source code of the system under test (SUT) in a specific language (TS), and generate test cases or test suites to achieve 100% code (or maximum possible) coverage of the SUT by generating test cases using random values. This will ideally be fully automated. Tool is only wokring for simple functions but not for classes,etc. 
 
 The test cases can be generated to maximize coverage for the given coverage criteria:
 
