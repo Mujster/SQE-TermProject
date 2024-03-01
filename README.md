@@ -19,7 +19,7 @@ For automated execution of a generated test case or suit, you may create a stati
 
 This module shall be UI-based; it uses the generated test suits or test cases from Module 1, executes those on SUT, and generates the coverage report. The report should ideally be exportable as a pdf and show the coverage achieved by the selected test cases or suits. The UI must be intuitive, and the end user can easily observe what part of the SUT is not yet covered by the given test suites or test cases. And the same information can be exported to PDF as well for inspection purposes.
 
-The tool support only two languages 1) C/C++ or 2) JS (Typescript)
+The tool support only two languages 1) JS (Typescript)
 
 Regarding the features and guidance on how such a tool can be developed and used, Read the following article https://www.browserstack.com/guide/code-coverage-tools.
 
