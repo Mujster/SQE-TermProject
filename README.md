@@ -23,4 +23,4 @@ The tool support only two languages 1) JS (Typescript)
 
 Regarding the features and guidance on how such a tool can be developed and used, Read the following article https://www.browserstack.com/guide/code-coverage-tools.
 
-### Project To be Made Available By 28th Feb,2024
+### Project Available
